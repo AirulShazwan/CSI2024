@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Past CSI Events</title>
+    <link rel="stylesheet" href="path/to/your/css/style.css" />
+    <!-- Adjust the path to your CSS file -->
+    <style>
+      .past-csi-container {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        position: relative;
+      }
+      .past-csi-timeline {
+        position: relative;
+        padding: 40px 0;
+        list-style: none;
+        text-align: center;
+      }
+      .past-csi-timeline::after {
+        content: "";
+        position: absolute;
+        width: 6px;
+        background-color: #c4c4c4;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        margin-left: -3px;
+      }
+      .past-csi-event {
+        padding: 20px;
+        position: relative;
+        width: 50%;
+        box-sizing: border-box;
+      }
+      .past-csi-event-left {
+        left: 0;
+      }
+      .past-csi-event-right {
+        left: 50%;
+      }
+      .past-csi-event::after {
+        content: "";
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        right: -12.5px;
+        background-color: white;
+        border: 4px solid #c4c4c4;
+        top: 15px;
+        border-radius: 50%;
+        z-index: 1;
+      }
+      .past-csi-event-right::after {
+        left: -12.5px;
+      }
+      .past-csi-event-content {
+        padding: 20px;
+        background-color: white;
+        position: relative;
+        border-radius: 6px;
+      }
+      .past-csi-event h2 {
+        color: #0033cc; /* Default color for event title */
+      }
+      .past-csi-event p {
+        color: #666;
+      }
+      .past-csi-event-csi2018 h2 {
+        color: #0033cc;
+      }
+      .past-csi-event-csi2022 h2 {
+        color: #ff6600;
+      }
+      .past-csi-event-csi2021 h2 {
+        color: #cc0099;
+      }
+      .past-csi-event-csi2024 h2 {
+        color: #0033cc;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="past-csi-container">
+      <ul class="past-csi-timeline">
+        <li class="past-csi-event past-csi-event-left past-csi-event-csi2018">
+          <div class="past-csi-event-content">
+            <h2>CSI 2018</h2>
+            <p>
+              IoT – Transformative Technological Phenomena in the 21st Century
+            </p>
+            <p>9-11 July 2018<br />Copthorne Orchid Hotel, Penang</p>
+          </div>
+        </li>
+        <li class="past-csi-event past-csi-event-right past-csi-event-csi2022">
+          <div class="past-csi-event-content">
+            <h2>CSI 2022</h2>
+            <p>
+              Embracing Digital Communicative Technology in Futurizing Education
+              in Post Pandemic Classrooms
+            </p>
+            <p>30 March 2021<br />Webex Online Conference</p>
+          </div>
+        </li>
+        <li class="past-csi-event past-csi-event-left past-csi-event-csi2021">
+          <div class="past-csi-event-content">
+            <h2>CSI 2021</h2>
+            <p>
+              IoT - Transformative Technological Phenomena in the 21st Century
+            </p>
+            <p>
+              15 December 2022<br />Hybrid @ Universitas Muhammadiyah Sumatera
+              Utara (UMSU) in Medan, Indonesia.
+            </p>
+          </div>
+        </li>
+        <li class="past-csi-event past-csi-event-right past-csi-event-csi2024">
+          <div class="past-csi-event-content">
+            <h2>CSI 2024</h2>
+            <p>
+              The AI Paradigm Shift: Towards Education and Communication
+              Excellence
+            </p>
+            <p>
+              3-4 December 2024<br />Borneo Cultures Museum (BCM), Kuching
+              Sarawak
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
